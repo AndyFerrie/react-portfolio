@@ -41,11 +41,9 @@ export default function TimelineElement({ item }: TimelineElementProps) {
                 date={item.date}
                 icon={item.icon}
                 iconStyle={{
-                    background:
-                        theme === "light"
-                            ? "white"
-                            : "rgba(255, 255, 255, 0.15)",
+                    background: theme === "light" ? "#F3F4F6" : "#A9A9A9",
                     fontSize: "1.5rem,",
+                    color: "black",
                 }}
                 visible={inView}
             >
